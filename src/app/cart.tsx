@@ -19,7 +19,7 @@ export default function Cart() {
   const navigation = useNavigation();
   const [name, setName] = useState("");
 
-  const PHONE_NUMBER = "+55 81 985080792";
+  const PHONE_NUMBER = "";//Informe o número que vai receber os pedidos
 
   const total = formatCurrency(
     cartStore.products.reduce(
